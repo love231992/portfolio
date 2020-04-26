@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Lovepreet Portfolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" href="animate.css" />
+</head>
+<body>
+    <div class="container navbar">
+        <header>
+            <div class="logo">
+                <h1>Lovepreet Singh</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="container main-info-section">
+        <div class="profile-image">
+            <img src="img/programming-background-design_1223-79.jpg" alt="">
+        </div>
+        <div class="text">
+            <h1>
+                <span>H</span>
+                <span class="m-left">i</span>
+                <span class="m-left">,</span>
+                <br>
+                <span>I</span>
+                <span class="m-left">'</span>
+                <span class="m-left">m</span>
+                <span class="name">L</span>
+                <span class="m-left name">O</span>
+                <span class="m-left name">V</span>
+                <span class="m-left name">E</span>
+                <span class="m-left name">P</span>
+                <span class="m-left name">R</span>
+                <span class="m-left name">E</span>
+                <span class="m-left name">E</span>
+                <span class="m-left name">T</span>
+                <span class="m-left">,</span>
+                <br>
+                <span>P</span>
+                <span class="m-left">r</span>
+                <span class="m-left">o</span>
+                <span class="m-left">g</span>
+                <span class="m-left">r</span>
+                <span class="m-left">a</span>
+                <span class="m-left">m</span>
+                <span class="m-left">m</span>
+                <!-- <span class="m-left">n</span> -->
+                <span class="m-left">e</span>
+                <span class="m-left">r</span>
+            </h1>
+            <br>
+            <p>PYTHON / HTML / WORDPRESS</p>
+            <a href="#contact">Contact</a>
+        </div>
+        
+    </div>
+
+    <div class="container about" id="about">
+        <h1>About</h1>
+        <div class="about-me-info">
+            <p>I'm a web develepor and programmer, loves to create web and desktop applications with Python. I create custom websites and programs to ease out the workload and help business do better online.</p>
+            <p>I am currently working with Larsen & Toubro as a Executive Engineer and have deep love and passion for coding.</p>
+        </div>
+        <img src="img/dotted-shape.png" alt="">
+    </div>
+
+    <div class="container skills" id="skills">
+        <h1>Skills</h1>
+        <p class="skills-info">I have programming skills covering front-end and back-end solutions to every problem. </p>
+        <div class="html">
+            <div class="tag-python">
+                <p>Python</p>
+            </div>
+            <div class="progessbar">
+                <div class="bar-html"></div>
+            </div>
+        </div>
+        <div class="html">
+            <div class="tag-css">
+                <p>CSS</p>
+            </div>
+            <div class="progessbar">
+                <div class="bar-css"></div>
+            </div>
+        </div>
+        <div class="html">
+            <div class="tag-js">
+                <p>JavaScript</p>
+            </div>
+            <div class="progessbar">
+                <div class="bar-js"></div>
+            </div>
+        </div>
+        <div class="html">
+            <div class="tag-html">
+                <p>HTML</p>
+            </div>
+            <div class="progessbar">
+                <div class="bar-python"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container work" id="projects">
+        <h1>Work</h1>
+        <div class="work-category">
+            <button id="designing" class="active" onclick="showRequiredCategory(this)">Web Designing</button>
+            <button id="animation" onclick="showRequiredCategory(this)">Python Applications</button>
+            <button id="project" onclick="showRequiredCategory(this)">Mobile App</button>
+        </div>
+        <div class="category-designing showCategory">
+            <div class="desc">
+                <a href="https://www.antiquedelight.co.in/" target="_blank"><img src="img/antique.png"></a>
+                <p>E-Commerce website for Jewellery </p>
+            </div>
+        </div>
+        <div class="category-animation hideCategory">
+            <div class="desc">
+                <a href="http://ashmanagement.pythonanywhere.com/sale_detail/" target="_blank"><img src="img/npl1.png"></a>
+                <p>A web-app that let user view sales parameter.</p>
+            </div>
+            <div class="desc">
+                <a href="#projects"><img src="img/pyqt5.png"></a>
+                <p>A desktop application to generate daily MIS report</p>
+            </div>
+        </div>
+        <div class="category-project hideCategory">
+            <div class="desc">
+                <a href="#projects"><img id="app" src="img/app1.png"></a>
+                <p>Android mobile app to view sales data after office hours</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container contact" id="contact">
+        <h1>Contact</h1>
+        <div class="contact_us">
+            <p> Do you have any problem and want to have a custom solution. You can contact me on my email id : <b>love231992@gmail.com</b></p>
+            <br>
+            <p id="social">Let's be internet BFFs</p>
+        <div class="footer">
+            <a href="https://github.com/love231992" target="_blank"><img src="img/GitHub-Mark-32px.png" alt="github"></a> 
+            <a href="https://www.linkedin.com/in/lovepreet-singh-379593b1/" target="_blank"><img src="img/icons8-linkedin-circled-96.png" alt="linkedin"></a> 
+            <a href="https://twitter.com/love231992" target="_blank"><img src="img/icons8-twitter-circled-96.png" alt="twitter"></a> 
+        </div>
+   
+        </div>
+    </div>
+
+    <footer> 
+        <hr>
+            <p style="font-size: 1rem; font-weight: none;">2020. All Rights Reserved</p>
+    </footer>
+
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/animation.gsap.min.js"></script>
+    <script src="js/TimelineLite.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/CSSPlugin.min.js"></script>
+    <script src='index.js'></script>
+
+</body>
+</html>
